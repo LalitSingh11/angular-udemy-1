@@ -7,9 +7,9 @@ import { User } from './user/user.model';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
+  // standalone: true,
   templateUrl: './app.component.html',
-  imports: [HeaderComponent, UserComponent, TasksComponent],
+  // imports: [HeaderComponent, UserComponent, TasksComponent],
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
